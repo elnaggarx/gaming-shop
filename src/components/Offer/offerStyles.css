@@ -1,0 +1,18 @@
+.offer{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.75rem 9.375rem 0.75rem 30%;
+    color: white;
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+}
+.offer >p>span{
+    font-weight: 600;
+    text-decoration: underline;
+}
+.language{
+    display: flex;
+}

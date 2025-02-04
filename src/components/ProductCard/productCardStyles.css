@@ -1,0 +1,61 @@
+.product-card{
+    width: 20%;
+    flex:10 0 auto;
+    position: relative;
+}
+.image-container{
+    background-color: #F5F5F5;
+    padding: 2.188rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product-card>.image-container>img{
+    width: 70%;
+}
+.product-card:nth-child(n+2){
+    margin-left: 1.875rem;
+}
+.product-name{
+    font-weight: 500;
+    margin-top:1rem;
+}
+.product-price{
+    font-weight: 500;
+    color: #DB4444;
+}
+.before-discount{
+    color: grey;
+    text-decoration:line-through;
+}
+.number-of-reviews{
+    font-size: 0.875rem;
+    color: grey;
+}
+.product-review{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 45%;
+}
+.product-review img{
+    width: 20px;
+    height: 20px;
+}
+.ww-buttons-container{
+    position: absolute;
+    top:0.75rem;
+    right: 0.75rem;
+}
+.discount-percentage{
+    position: absolute;
+    top:0.75rem;
+    left: 0.75rem;
+    font-size: 0.75rem;
+    font-weight: 400;
+    background-color: #DB4444;
+    color: white;
+    padding: 0.25rem 0.75rem 0.25rem 0.75rem;
+    border-radius: 0.25rem;
+}

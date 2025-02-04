@@ -1,0 +1,36 @@
+.advantages{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8.75rem 17.29% 8.75rem 17.29%;
+    
+}
+.advantages > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.advantages > div > div{
+    background-color: black;
+    border: 7px solid #d1d1d1;
+    border-radius: 50%;
+    padding: 0.4rem;
+    width: fit-content;
+    
+}
+.advantages >div >div > img{
+    width: 40px;
+    height: 40px;
+    
+}
+.advantages > div > h6{
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 1.5rem;
+}
+.advantages > div > p{
+    font-size: 0.875rem;
+    font-weight: 400;
+    margin-top: 0.5rem;
+}

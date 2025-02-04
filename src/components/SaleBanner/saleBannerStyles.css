@@ -1,0 +1,82 @@
+.sale-banner-inner{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 37px 4.7% 69px  3.7%;
+
+}
+.sale-banner{
+    width: 100%;
+    padding: 6.5rem 9.375% 6.5rem 9.375%;
+}
+.sale-banner-left{
+    width: 38%;
+    color: white;
+}
+
+.sale-banner-right{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 51%;
+}
+.on-sale-item{
+    width: 100%;
+    z-index: 4;
+}
+.blur{
+    width: 100%;
+    z-index: 2;
+    position: absolute;
+    left: -50%;
+    right: -50%;
+    transform: translate(50%,50%);
+}
+.on-sale-cat{
+    color: #00FF66;
+    font-weight: 600;
+    font-family: 'Inter' , sans-serif;
+}
+.sale-banner-left h1{
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 60px;
+    margin-top: 2rem;
+}
+.sale-banner-time-left{
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    width: 71%;
+}
+.sale-banner-time-left > div{
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    width: 62px;
+    height: 62px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.sale-banner-time-left > div >p{
+    font-size: 0.688rem;
+    font-weight: 400;
+}
+.sale-banner-time-left > div > .number{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.sale-banner-left button{
+    margin-top: 2.5rem;
+    background-color: #00FF66;
+    padding: 1rem 3rem;
+    color: white;
+    font-weight: 500;
+}

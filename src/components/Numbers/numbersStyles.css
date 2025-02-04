@@ -1,0 +1,40 @@
+.numbers{
+    display: flex;
+    justify-content: space-between;
+    padding: 0  9.375% 8.75rem 9.375%;
+}
+.numbers > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 23%;
+    border: solid 1px #d7d7d7;
+    padding: 1.875rem 0;
+}
+.numbers > div >div{
+    background-color: black;
+    border-radius: 50%;
+    width: 72px;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 8px #d7d7d7;
+    
+}
+.numbers img{
+    width: 40px;
+    height: 40px;
+}
+.numbers > div > h3{
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: 'Inter',sans-serif;
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+
+}
+.numbers >div > p{
+    font-weight: 400;
+
+}

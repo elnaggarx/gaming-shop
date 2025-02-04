@@ -1,0 +1,14 @@
+.our-products{
+    padding: 0  9.375% 0 9.375%;
+    
+}
+
+.our-products-grid{
+    margin-top:3.75rem ;
+    margin-bottom: 3.75rem;
+    row-gap: 3.75rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 23% 23% 23% 23%;
+    justify-content: space-between;
+}

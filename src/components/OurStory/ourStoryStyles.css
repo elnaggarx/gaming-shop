@@ -1,0 +1,26 @@
+.our-story{
+    display: flex;
+    padding: 0 0 8.75rem 9.375%;
+    justify-content: space-between;
+    align-items: center;
+}
+.our-story img{
+    width: 52.2%;
+}
+.our-story h1{
+    font-size: 3.375rem;
+    font-weight: 600;
+}
+.about-us-text{
+    width: 42.8%;
+}
+.about-us-text p {
+    font-weight: 400;
+    font-size: 1rem;
+}
+.about-us-text p:nth-child(2){
+    margin-top: 2.5rem;
+}
+.about-us-text p:nth-child(3){
+    margin-top: 1.5rem;
+}

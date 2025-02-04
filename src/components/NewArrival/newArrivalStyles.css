@@ -1,0 +1,172 @@
+.new-arrival{
+    padding: 8.75rem 9.375% 0 9.375%;
+}
+.new-arrival a{
+    color: white;
+    font-weight: 500;
+}
+.new-arrival > h1{
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: 'Inter' , sans-serif;
+    margin-top: 1.25rem;
+}
+.pink{
+    width: 20px;
+    height: 40px;
+}
+.new-arrival-header{
+    display: flex;
+    align-items: center;
+
+}
+.new-arrival-header p{
+    font-weight: 600;
+    color: #DB4444;
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+.new-arrival-grid{
+    display: grid;
+    grid-template-areas: 'ps ps w w' 'ps ps s p';
+    column-gap: 1.875rem;
+    row-gap: 2rem;
+    margin-top: 3.75rem;
+}
+.playstation{
+    grid-area: ps;
+    background-color: black;
+    position: relative;
+    color: white;
+    height: 600px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+.playstation>div{
+    z-index: 3;
+    padding: 0 0 2rem 2rem;
+    width: 55%;
+}
+.playstation > div >p  {
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.playstation > div >h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+}
+.playstation img{
+    width: 90%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+.woman{
+    grid-area: w;
+    background-color: black;
+    color: white;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 0 0 1.5rem 1.5rem;
+}
+.woman > div{
+    z-index: 3;
+    width: 45%;
+}
+.woman > div >h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    z-index: 3;
+}
+.woman > div > p{
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.woman img{
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    right: 0%;
+    
+}
+
+.mini-speaker{
+    grid-area: s;
+    background-color: black;
+    color: white;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 0 0 1.5rem 1.5rem;
+    background: radial-gradient(#3a3a3a, #000);
+
+}
+.mini-speaker > div{
+    z-index: 3;
+}
+.mini-speaker > div > p{
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.mini-speaker img{
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.mini-speaker > div >h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    z-index: 3;
+}
+.gucci-perfume{
+    grid-area: p;
+    background-color: black;
+    color: white;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 0 0 1.5rem 1.5rem;
+    background: radial-gradient(#3a3a3a, #000);
+}
+.gucci-perfume > div{
+    z-index: 3;
+}
+.gucci-perfume > div >h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    z-index: 3;
+}
+.gucci-perfume > div > p{
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.gucci-perfume img{
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}

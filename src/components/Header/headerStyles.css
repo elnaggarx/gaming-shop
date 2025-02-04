@@ -1,0 +1,63 @@
+.header{
+    width: 100%;
+    padding: 5.5rem 9.375% 1rem 9.375%;
+    font-family: "Inter", sans-serif;
+    border-bottom: solid 1px rgb(185, 185, 185);
+}
+.logo{
+    font-size: 1.5rem;
+    font-weight: 700;
+
+}
+.header-inner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
+.menu-list{
+    list-style: none;
+    color: #000;
+    font-weight: 400;
+    font-size: 1rem;
+    
+}
+.menu-list-item{
+    display: inline;
+    margin: 0 1rem;
+}
+.header-right{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+.header-icons-container{
+    display: flex;
+    align-items: center;
+}
+.cart-icon-container{
+    margin-left: 0.5rem;
+}
+.whishlist-icon-container{
+    margin-right: 0.5rem;
+}
+.search-bar-container{
+    width: 70%;
+    background-color: #F5F5F5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 8.2%;
+    padding-right: 3%;
+}
+.search-bar-container input{
+    border: none;
+    background-color: #F5F5F5;
+}
+.search-bar-container input:focus{
+    border: none;
+    outline: none;
+
+}

@@ -1,0 +1,128 @@
+.flash-sale{
+    padding: 6.5rem 0 0 9.375%;
+}
+#padRight{
+    padding-right: 9.375%;
+}
+.day{
+    display: flex;
+    align-items: center;
+}
+.day p{
+    font-weight: 600;
+    color: #DB4444;
+}
+.day img{
+    width: 20px;
+    height: 40px;
+    margin-right: 0.625rem;
+}
+.flash-sale-header h1{
+    font-family: 'Inter',sans-serif;
+    font-size: 2.25rem;
+}
+.flash-sale-header{
+    display: flex;
+    align-items: flex-end;
+    width: 80%;
+}
+.flash-sale-flexone{
+    display: flex;
+    padding-right: 9.375%;
+    justify-content: space-between;
+    align-items: center;
+}
+.count-down{
+    display: grid;
+    grid-template-areas: "daysTitle . hoursTitle . minutesTitle . secondsTitle" "days colon1 hours colon2 minutes colon3 seconds ";
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 5.4rem;
+    width: 40%;
+}
+.days-title{
+    grid-area: daysTitle;
+}
+.hours-title{
+    grid-area:hoursTitle;
+}
+.minutes-title{
+    grid-area: minutesTitle;
+}
+.seconds-title{
+    grid-area: secondsTitle;
+}
+.days{
+    grid-area: days;
+}
+.hours{
+    grid-area:hours;
+}
+.minutes{
+    grid-area:minutes;
+}
+.seconds{
+    grid-area:seconds;
+}
+.colon1{
+    grid-area: colon1;
+    font-size: 2rem;
+    font-weight: 700;
+    color:#DB4444;
+}
+.colon2{
+    grid-area:colon2;
+    font-size: 2rem;
+    font-weight: 700;
+    color:#DB4444;
+}
+.colon3{
+    grid-area:colon3;
+    font-size: 2rem;
+    font-weight: 700;
+    color:#DB4444;
+
+}
+.time-remaining{
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: 'Inter',sans-serif;
+}
+.time-title{
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+.flashes-arrows-container{
+    display: flex;
+}
+.left-arrow-container,.right-arrow-container{
+    background-color: rgb(185, 185, 185) ;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-arrow-container{
+    margin-left: 1rem;
+
+}
+.flash-sale-slider{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    margin: 2.5rem 0 3.75rem 0;
+}
+.flash-sale-cta{
+    background-color: #DB4444;
+    color: white;
+    font-weight: 500;
+    border: none;
+    padding: 1rem 3rem;
+}
+.flash-sale-cta-container{
+    display: flex;
+    justify-content: center;
+    
+}
