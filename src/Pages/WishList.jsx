@@ -1,9 +1,10 @@
 import React from 'react'
 import pink from '../assets/pink.png'
+import JustForYou from '../components/JustForYou/JustForYou'
 const WishList = () => {
   return (
     <div className='wishlist'>
-        <div>
+        <div className='wishlist-header'>
             <p>Wishlist (4)</p>
             <button>Move All To Bag</button>
         </div>
@@ -11,7 +12,7 @@ const WishList = () => {
 
 
 
-        <div>
+        <div className='just-for-you-header'>
             <div>
                 <img src={pink} alt="error" />
                 <p>
@@ -20,6 +21,7 @@ const WishList = () => {
             </div>
             <button>See All</button>
         </div>
+        <JustForYou></JustForYou>
     </div>
   )
 }

@@ -3,7 +3,7 @@ import controller from "../assets/controller.png";
 import keyboard from "../assets/keyboard.png";
 import monitor from "../assets/monitor.png";
 
-const justForYou = [
+const justForYouProducts = [
     {id:0,image:laptop,name:"ASUS FHD Gaming Laptop",priceAfter:700,reviews:5,nOfReviews:325},
     {id:1,image:monitor,name:"IPS LCD Gaming Monitor",discount:true,discountPercentage:30,priceAfter:370,priceBefore:400,reviews:5,nOfReviews:99},
     {id:2,image:controller,name:"HAVIT HV-G92 Gamepad",discount:true,discountPercentage:40,priceAfter:120,priceBefore:160,reviews:5,nOfReviews:88},
@@ -11,4 +11,4 @@ const justForYou = [
 
 
 ];
-export default justForYou;
+export default justForYouProducts;

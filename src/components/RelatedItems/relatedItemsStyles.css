@@ -1,0 +1,6 @@
+.related-items{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 9.375%;
+    margin-bottom: 8.75rem;
+}
