@@ -15,6 +15,7 @@ import store from "./redux/store";
 import { Provider } from "react-redux";
 import Cart from "./Pages/Cart";
 import Billing from "./Pages/Billing";
+import Account from "./Pages/Account";
 function App() {
   return (
     <Provider store={store}>
@@ -37,6 +38,7 @@ function App() {
               <Route path="contact" element={<Contact></Contact>}></Route>
               <Route path="cart" element={<Cart></Cart>}></Route>
               <Route path="billing" element={<Billing></Billing>}></Route>
+              <Route path="account" element={<Account></Account>}></Route>
 
               <Route path="*" element={<NotFound></NotFound>}></Route>
 

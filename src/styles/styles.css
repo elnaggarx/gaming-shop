@@ -511,7 +511,7 @@ input[type="checkbox"]:checked::after {
     margin-left: 1rem;
 }
 .billing-coupon-field{
-    padding: 1rem auto 1rem 1.5rem;
+    padding-left: 1.5rem;
     flex-grow: 1;
 }
 .place-order-button{
@@ -521,4 +521,95 @@ input[type="checkbox"]:checked::after {
     border: none;
     border-radius: 4px;
     margin-top: 2rem;
+}
+.account-flex{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 9.375% 8.75rem 9.375%;
+    align-items: flex-start;
+}
+.account-side-bar{
+    width: 20%;
+}
+.account-side-bar h6{
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.account-side-bar p{
+    color: #9b9a9a;
+    font-weight: 400;
+    margin-left: 2.25rem;
+}
+.account-side-bar > div:nth-child(n+2){
+    margin-top: 1.5rem;
+}
+.account-side-bar > div > div > p:nth-child(n+2){
+    margin-top: 0.5rem;
+}
+.account-edit-profile{
+    width: 73%;
+    padding: 2.5rem 5rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.account-edit-profile h3{
+    font-size: 1.25rem;
+    color: #DB4444;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.account-details-grid{
+    display: grid;
+    grid-template-areas: "fn ln" "em add" "pass pass" "d d";
+    row-gap: 1.5rem;
+    column-gap: 3.125rem;
+    
+}
+.first-name-input-container{
+    grid-area: fn;
+
+    
+}
+.last-name-input-container{
+    grid-area: ln;
+}
+.email-input-container{
+    grid-area: em;
+}
+.address-input-container{
+    grid-area: add;
+}
+.password-input-container{
+    grid-area: pass;
+}
+.account-save-changes-container{
+    grid-area: d;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.account-save-changes-container p{
+    margin-right: 2rem;
+}
+.account-save-changes-container button{
+    padding: 1rem 3rem;
+    background-color: #DB4444;
+    border: none;
+    border-radius: 4px;
+    color:white
+}
+.account-details-grid input{
+    width: 100%;
+    padding-left: 1rem;
+    border-radius: 4px;
+    border: none;
+    background-color: #f5f5f5;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+.account-details-grid p{
+    margin-bottom: 0.5rem;
+}
+.password-input-container input:nth-child(n+2){
+    margin-top: 1rem;
 }
