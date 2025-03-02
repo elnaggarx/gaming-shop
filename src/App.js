@@ -2,7 +2,7 @@ import Header from "./components/Header/Header";
 import "./styles/styles.css";
 import Offer from "./components/Offer/Offer";
 import Footer from "./components/Footer/Footer";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Home from "./Pages/Home";
 import Register from "./Pages/Register";
 import Login from "./Pages/Login";
@@ -13,6 +13,8 @@ import ProductDetails from "./Pages/ProductDetails";
 import Contact from "./Pages/Contact";
 import store from "./redux/store";
 import { Provider } from "react-redux";
+import Cart from "./Pages/Cart";
+import Billing from "./Pages/Billing";
 function App() {
   return (
     <Provider store={store}>
@@ -22,7 +24,6 @@ function App() {
           <Offer></Offer>
         </header>
         <main>
-          <BrowserRouter>
             <Routes>
               <Route index element={<Home></Home>}></Route>
               <Route path="register" element={<Register></Register>}></Route>
@@ -34,9 +35,13 @@ function App() {
                 element={<ProductDetails></ProductDetails>}
               ></Route>
               <Route path="contact" element={<Contact></Contact>}></Route>
+              <Route path="cart" element={<Cart></Cart>}></Route>
+              <Route path="billing" element={<Billing></Billing>}></Route>
+
               <Route path="*" element={<NotFound></NotFound>}></Route>
+
             </Routes>
-          </BrowserRouter>
+
         </main>
         <footer>
           <Footer></Footer>

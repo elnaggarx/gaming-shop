@@ -1,11 +1,15 @@
 import React from 'react'
 import star from "../../assets/star.png"
 import "./productCardStyles.css";
+import { useDispatch } from 'react-redux';
+import { addItem } from '../../redux/cartSlice';
 const ProductCard = (props) => {
+  const dispatch = useDispatch();
   return (
     <div className='product-card' style={props.w && {width:props.w,marginLeft:0}}>
         <div className='image-container'>
           <img src={props.image} alt="error" />
+          <button className='product-add-to-cart' onClick={()=>{dispatch(addItem({id:props.id,name:props.name,price:props.priceAfter,image:props.image,qty:1}))}}>Add To Cart</button>
         </div>
         <p className='product-name'>{props.name}</p>
         <p className='product-price'>${props.priceAfter} {props.priceBefore && <span className='before-discount'>${props.priceBefore}</span>}</p>
@@ -37,6 +41,7 @@ const ProductCard = (props) => {
             <p>{props.discountPercentage}%</p>
         </div>
         }
+        
     </div>
   )
 }

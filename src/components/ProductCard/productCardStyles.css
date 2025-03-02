@@ -9,6 +9,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 .product-card>.image-container>img{
     width: 70%;
@@ -58,4 +59,19 @@
     color: white;
     padding: 0.25rem 0.75rem 0.25rem 0.75rem;
     border-radius: 0.25rem;
+}
+.product-add-to-cart{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    color:white;
+    opacity: 0;
+    border: none;
+    padding: 0.5rem;
+}
+.product-card .image-container:hover .product-add-to-cart{
+    opacity: 1;
+    transition: all ease-in-out 200ms;
 }

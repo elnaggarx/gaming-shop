@@ -39,9 +39,11 @@
 }
 .cart-icon-container{
     margin-left: 0.5rem;
+    position: relative;
 }
 .whishlist-icon-container{
     margin-right: 0.5rem;
+    position: relative;
 }
 .search-bar-container{
     width: 70%;
@@ -60,4 +62,25 @@
     border: none;
     outline: none;
 
+}
+.count{
+    position: absolute;
+    top: -5px;
+    right: -3px;
+    background-color: #DB4444;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.count p{
+    color:white;
+    font-size: 12px;
+
+}
+.header-inner a{
+    text-decoration: none;
+    color: black;
 }

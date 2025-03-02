@@ -44,7 +44,7 @@ const Flashes = () => {
         </div>
         <div className='flash-sale-slider'>
             {products.map((item)=>{
-                return <ProductCard image={item.image} id={item.id} name={item.name} priceAfter={item.priceAfter} priceBefore={item.priceBefore} 
+                return <ProductCard image={item.image} key={item.id} id={item.id} name={item.name} priceAfter={item.priceAfter} priceBefore={item.priceBefore} 
                 reviews={item.reviews} noOfReviews={item.nOfReviews} discountPercentage={item.discountPercentage}
                 discount={item.discount}></ProductCard>
             })}
